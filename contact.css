@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding: 0;
+}
+
+.container {
+    background-color: black;
+    position: absolute;
+    z-index: 2;
+}
+
+.nav-item {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.nav-link {
+    color: white;
+    padding: 10px 20px;
+    font-size: x-large
+}
+
+a:hover {
+    color: rgb(234, 233, 233);
+}
+
+
+.head {
+    display: flex;
+}
+
+.newhead{
+    padding-left: 25%;
+}
+
+.heading {
+    font-family: samarkan;
+    font-size: medium;
+    color: whitesmoke;
+    padding-right: 24%;
+    background-color: black;
+}
+
+
+.page {
+    background-image: linear-gradient(#039382, #78a678, #039382);
+    color: white;
+    padding-left: 26%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+textarea {
+    border-radius: 20%;
+}
+form{
+    padding-left: 11%;
+}
+input {
+    border-radius: 20%;
+}
+
+button {
+    padding: 5px;
+}
+button:hover{
+    background-color: #039382;
+    color:white ;
+}
+.footer {
+    background-color: black;
+    color: whitesmoke;
+    padding: 6px 10px 5px 10px;
+}
+
+.heading-end {
+    font-family: samarkan;
+    font-size: xx-large;
+    text-align: center;
+
+
+}
+
+u {
+    font-size: xx-large;
+}
+
+.l {
+    padding: 0 9px;
+}
+
+.last {
+    display: flex;
+    padding-left: 14%;
+    flex-direction: row;
+    padding-bottom: 4px;
+    font-size: x-large;
+    padding: 0 20%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width: 850px) {
+    .head {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .heading {
+        padding: 0;
+    }
+
+    .mimg {
+        display: none;
+    }
+
+    .container {
+        padding: 0 145px;
+    }
+    .page {
+        padding-top: 19%;
+        padding-left: 19%;
+    }
+    .newhead {
+        padding-left: 0%;
+    }
+    form {
+        padding-left: 0%;
+    }
+}

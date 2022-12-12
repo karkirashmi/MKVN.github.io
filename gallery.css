@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding: 0;
+}
+
+.container {
+    background-color: black;
+    position: absolute;
+    z-index: 2;
+}
+
+.nav-item {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.nav-link {
+    color: white;
+    padding: 10px 20px;
+    font-size: x-large
+}
+
+a:hover {
+    color: rgb(234, 233, 233);
+}
+
+
+.head {
+    display: flex;
+}
+
+.newhead {
+    padding-left: 25%;
+}
+
+.heading {
+    font-family: samarkan;
+    font-size: medium;
+    color: whitesmoke;
+    padding-right: 24%;
+    background-color: black;
+}
+
+.section {
+    padding: 12% 20%;
+    background-image: radial-gradient(farthest-side at 130% 10%, red, black);
+    font-family: salsa;
+    font-size: 90px;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.foot {
+    background-color: #688200;
+    margin: 0;
+    padding: 1%;
+    color: white;
+}
+
+.pict {
+    padding-left: 8%;
+    background-color: #bdbdbd;
+}
+
+.im {
+    padding: 1%;
+}
+
+.pict1 {
+    padding-left: 8%;
+    background-color: #e3e3e3;
+}
+
+.pict2 {
+    padding-left: 8%;
+    background-color: #AAAAAA;
+}
+
+.footer {
+    background-color: black;
+    color: whitesmoke;
+    padding: 6px 10px 5px 10px;
+}
+
+.heading-end {
+    font-family: samarkan;
+    font-size: xx-large;
+    text-align: center;
+
+
+}
+
+u {
+    font-size: xx-large;
+}
+
+.l {
+    padding: 0 9px;
+}
+
+.last {
+    display: flex;
+    padding-left: 14%;
+    flex-direction: row;
+    padding-bottom: 4px;
+    font-size: x-large;
+    padding: 0 20%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width: 850px) {
+    .head {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .heading {
+        padding: 0;
+    }
+
+    .mimg {
+        display: none;
+    }
+
+    .container {
+        padding: 0 134px;
+    }
+
+    .section {
+        padding-top: 159px;
+        padding-bottom: 2%;
+    }
+
+    .pict {
+        padding: 0;
+    }
+
+    .pict1 {
+        padding-left: 0%;
+
+    }
+
+    .pict2 {
+        padding: 0;
+    }
+
+}
