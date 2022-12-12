@@ -104,7 +104,7 @@ u {
 }
 
 @media screen and (max-width: 850px) {
-    .head {
+   .head {
         display: flex;
         flex-direction: column;
     }
@@ -122,11 +122,11 @@ u {
     }
 
     .container {
-        padding: 0 145px;
+        padding: 0 55px;
     }
     .page {
-        padding-top: 19%;
-        padding-left: 19%;
+        padding-top: 26%;
+        padding-left: 4%;
     }
     .newhead {
         padding-left: 0%;
